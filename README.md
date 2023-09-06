@@ -39,7 +39,7 @@ To install Evernode, you server must meet following requirements:
 - Swap: **2 GB** minimum
 - Disk space: **4 GB** minimum free disk space for `/home`
 - Domain name for your host ([read more](#domain-name))
-- Email address for others to contact/report issues on your host
+- Public email address to be used as the public contact method ([read more](#email-address))
 - Existing XRPL account with an EVR balance greater than 5120 (use [this page](https://dashboard.evernode.org/#/testnet-faucet) to generate a testnet account with EVR balance).
 
 (Optional) Step-by-step Instructions [Get Setup on AWS](https://tinyurl.com/aws-instance)
@@ -109,14 +109,13 @@ At any time, you can uninstall and deregister from Evernode with `sudo evernode 
 
 Read about [Sashimono](sashimono.md) to get a better understanding on what's going on inside the software.
 
-## Easy Evernode transfers
+You can find useful host maintenance tips from [here](maintenance-tips.md).
 
-You can now perform Evernode transfers **without** installing `Evernode`.
-You can use the following command in your terminal to execute an Evernode transfer for your host account.
+# Governance Game
 
-```
-curl -fsSL https://stevernode.blob.core.windows.net/evernode-beta-v3/setup.sh | sudo bash -s transfer -i
-```
+Governance Game allows eligible participants in the Evernode network to propose and vote on the Evernode Hook changes. These proposals will get accepted or purged according to a predetermined rule-set on received votes.
+
+You can refer the detailed documentation in [here](governance-game.md).
 
 # Reporting issues
 
